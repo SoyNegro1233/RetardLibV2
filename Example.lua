@@ -19,11 +19,11 @@
       https://github.com/violin-suzutsuki/LinoriaLib/blob/main/Example.lua                
 --]]
 
-local repo = "https://raw.githubusercontent.com/mstudio45/LinoriaLib/main/"
+local repo = "https://raw.githubusercontent.com/SoyNegro1233/RetardLibV2/main/"
 
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
-local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
-local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
+local ThemeManager = loadstring(game:HttpGet(repo .. "ThemeManager.lua"))()
+local SaveManager = loadstring(game:HttpGet(repo .. "SaveManager.lua"))()
 
 local Options = Library.Options
 local Toggles = Library.Toggles
