@@ -6589,10 +6589,10 @@ function Library:CreateWindow(...)
     })
 
     local WindowLabel = Library:CreateLabel({
-        Position = UDim2.new(0, 7, 0, 0);
+        Position = UDim2.new(0.5, 0, 0, 0);
         Size = UDim2.new(0, 0, 0, 25);
         Text = WindowInfo.Title or "";
-        TextXAlignment = Enum.TextXAlignment.Left;
+        TextXAlignment = Enum.TextXAlignment.Center;
         ZIndex = 1;
         Parent = Inner;
     })
@@ -6642,6 +6642,7 @@ function Library:CreateWindow(...)
         Padding = UDim.new(0, WindowInfo.TabPadding);
         FillDirection = Enum.FillDirection.Horizontal;
         SortOrder = Enum.SortOrder.LayoutOrder;
+		HorizontalAlignment = Enum.HorizontalAlignment.Center;
         VerticalAlignment = Enum.VerticalAlignment.Center;
         Parent = TabArea;
     })
